@@ -1,29 +1,29 @@
-# Insight UI Innova
+# Insight UI MoneyByte
 
-A Innova blockchain explorer web application service for [Bitcore Node Innova](https://github.com/innovacoin/bitcore-node-innova) using [Insight API Innova](https://github.com/innovacoin/insight-api-innova).
+A MoneyByte blockchain explorer web application service for [Bitcore Node MoneyByte](https://github.com/MoneyByte/bitcore-node) using [Insight API MoneyByte](https://github.com/MoneyByte/insight-api).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/innovacoin/bitcore-innova).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Bitcore](https://github.com/MoneyByte/bitcore).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g bitcore-node-innova
-bitcore-node-innova create mynode
+npm install -g bitcore-node
+bitcore-node create mynode
 cd mynode
-bitcore-node-innova install insight-api-innova
-bitcore-node-innova install insight-ui-innova
-bitcore-node-innova start
+bitcore-node install insight-api
+bitcore-node install insight-ui
+bitcore-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
 
 ## Development
 
-To run Insight UI Innova locally in development mode:
+To run Insight UI MoneyByte locally in development mode:
 
 Install bower dependencies:
 
@@ -45,7 +45,7 @@ $ grunt
 
 ## Multilanguage support
 
-Insight UI Innova uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
+Insight UI MoneyByte uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
 
 To enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/innovacoin/insight-api-innova) configuration and end-points, go to [Insight API GitHub repository](https://github.com/innovacoin/insight-api-innova).
+For more details about the [Insight API](https://github.com/MoneyByte/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/MoneyByte/insight-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI Innova GitHub repository](https://github.com/innovacoin/insight-ui-innova).
+Contributions and suggestions are welcomed at the [Insight UI MoneyByte GitHub repository](https://github.com/MoneyByte/insight-ui).
 
 
 ## License

@@ -1,8 +1,8 @@
 {
-  "name": "insight-ui-innova",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Innova network and build your own services with it.",
+  "name": "insight-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the MoneyByte network and build your own services with it.",
   "version": "0.4.3",
-  "repository": "git://github.com/innovacoin/insight-ui-innova.git",
+  "repository": "git://github.com/MoneyByte/insight-ui.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -23,22 +23,26 @@
     {
       "name": "Juan Ignacio Sosa Lopez",
       "email": "bechilandia@gmail.com"
+    },
+    {
+      "name": "CircuitBreaker",
+      "email": "circuitbreaker88@protonmail.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/innovacoin/insight-ui-innova/issues"
+    "url": "https://github.com/MoneyByte/insight-ui/issues"
   },
-  "homepage": "https://github.com/innovacoin/insight-ui-innova",
+  "homepage": "https://github.com/MoneyByte/insight-ui",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "innova",
-    "bitcore-innova",
+    "moneybyte",
+    "bitcore",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-innova",
+  "bitcoreNode": "bitcore-node",
   "dependencies": {
   },
   "devDependencies": {

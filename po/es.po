@@ -23,28 +23,28 @@ msgstr "404 Página no encontrada :("
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target="
-"\"_blank\">open-source Innova blockchain explorer</a> with complete REST "
+"\"_blank\">open-source MoneyByte blockchain explorer</a> with complete REST "
 "and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by innovad RPC.  "
-"Check out the <a href=\"https://github.com/innovacoin/insight-ui-innova\" target=\"_blank"
+"that need more advanced blockchain queries than provided by moneybyted RPC.  "
+"Check out the <a href=\"https://github.com/MoneyByte/insight-ui\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
 "<strong>insight</strong>  es un <a href=\"http://live.insight.is/\" target="
-"\"_blank\">explorador de bloques de Innova open-source</a> con un completo "
+"\"_blank\">explorador de bloques de MoneyByte open-source</a> con un completo "
 "conjunto de REST y APIs de websockets que pueden ser usadas para escribir "
 "monederos de Dashs y otras aplicaciones que requieran consultar un "
 "explorador de bloques.  Obtén el código en <a href=\"http://github.com/"
-"innovacoin/insight\" target=\"_blank\">el repositorio abierto de Github</a>."
+"MoneyByte/insight\" target=\"_blank\">el repositorio abierto de Github</a>."
 
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong> is still in development, so be sure to report any "
 "bugs and provide feedback for improvement at our <a href=\"https://github."
-"com/innovacoin/insight/issues\" target=\"_blank\">github issue tracker</a>."
+"com/MoneyByte/insight/issues\" target=\"_blank\">github issue tracker</a>."
 msgstr ""
 "<strong>insight</strong> esta en desarrollo aún, por ello agradecemos que "
 "nos reporten errores o sugerencias para mejorar el software. <a href="
-"\"https://github.com/innovacoin/insight-ui-innova/issues\" target=\"_blank\">Github issue "
+"\"https://github.com/MoneyByte/insight-ui/issues\" target=\"_blank\">Github issue "
 "tracker</a>."
 
 #: public/views/index.html
@@ -68,8 +68,8 @@ msgid "Best Block"
 msgstr "Mejor Bloque"
 
 #: public/views/status.html
-msgid "Innova node information"
-msgstr "Información del nodo Innova"
+msgid "MoneyByte node information"
+msgstr "Información del nodo MoneyByte"
 
 #: public/views/block.html
 msgid "Block"
@@ -90,11 +90,11 @@ msgstr "Bytes Serializados"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to innovad to get live updates from the p2p network. (Tried "
-"connecting to innovad at {{host}}:{{port}} and failed.)"
+"Can't connect to moneybyted to get live updates from the p2p network. (Tried "
+"connecting to moneybyted at {{host}}:{{port}} and failed.)"
 msgstr ""
-"No se pudo conectar a innovad para obtener actualizaciones en vivo de la "
-"red p2p. (Se intentó conectar a innovad de {{host}}:{{port}} y falló.)"
+"No se pudo conectar a moneybyted para obtener actualizaciones en vivo de la "
+"red p2p. (Se intentó conectar a moneybyted de {{host}}:{{port}} y falló.)"
 
 #: public/views/includes/connection.html
 msgid "Can't connect to insight server. Attempting to reconnect..."
@@ -195,8 +195,8 @@ msgid "Last Block"
 msgstr "Último Bloque"
 
 #: public/views/status.html
-msgid "Last Block Hash (innovad)"
-msgstr "Último Bloque Hash (innovad)"
+msgid "Last Block Hash (moneybyted)"
+msgstr "Último Bloque Hash (moneybyted)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
